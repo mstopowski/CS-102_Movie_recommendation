@@ -1,0 +1,21 @@
+# title year genre country director main_actor length rotten_audience_score
+movie_data = [["12 Angry Men", 1957, "Drama", "USA", "Sidney Lumet", "Henry Fonda", 95, 97],
+              ["2001: A Space Odyssey", 1968, "Sci-fi", "USA", "Stanley Kubrick", "Keir Dullea", 139, 89],
+              ["The 400 blows", 1959, "Crime/Drama", "France", "François Truffaut","Jean-Pierre Léaud", 93, 94],
+              ["The Adventures of Priscilla, Queen of the Desert", 1994, "Comedy/LGBTQ+", "USA", "Stephan Elliott", "Terence Stamp", 102, 88],
+              ["The Adventures of Robin Hood", 1938, "Adventure/Action", "USA", "Michael Curtiz", "Errol Flynn", 102, 89],
+              ["Aguirre: The Wrath of God", 1972, "Adventure", "USA", "Werner Herzog", "Klaus Kinski", 94, 91],
+              ["Airplane!", 1980, "Comedy", "USA", "Jim Abrahams", "Leslie Nielsen", 88, 89],
+              ["Akira", 1988, "Sci-fi/Anime", "Japan", "Katsuhiro Ohtomo", "Mitsuo Iwata", 124, 90],
+              ["Alien", 1979, "Sci-fi/Horror", "USA", "Ridley Scott", "Sigourney Weaver", 117, 94],
+              ["Aliens", 1986, "Sci-fi/Horror", "USA", "James Cameron", "Sigourney Weaver", 137, 94],
+              ["All about Eve", 1950, "Drama", "USA", "Joseph Mankiewicz", "Bette Davis", 138, 94],
+              ["Alla bout my mother", 1999, "Drama/Comedy", "Spain", "Pedro Almodovar", "Cecilia Roth", 99,93],
+              ["All the president's men", 1976, "Drama", "USA", "Alan Pakula", "Robert Redford", 138, 92],
+              ["Almost famous", 2000, "Comedy/Drama", "USA", "Cameron Crowe", "Kate Hudson", 122, 92],
+              ["Amadeus", 1984, "Biography/History", "USA", "Milos Forman", "Tom Hulce", 158, 95],
+              ["Amelie", 2001, "Romance/Comedy", "France", "Jean-Pierre Jeunet", "Audrey Tautou", 121, 95],
+              ["Amour", 2012, "Drama", "France", "Michael Haneke", "Emmanuelle Riva", 127, 82],
+              ["Annie Hall", 1977, "Romance/Comedy", "USA", "Woody Allen", "Woody Allen", 93, 92],
+              ["An American in Paris", 1951, "Musical/Romance", "USA", "Vincente Minnelli", "Gene Kelly", 113, 79]
+              ]
