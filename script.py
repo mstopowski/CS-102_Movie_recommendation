@@ -65,4 +65,12 @@ if __name__ == "__main__":
         selected_movie = mm.get_random_movie(movieList)
         pr.movie_decorator(selected_movie)
     elif selection == 5:
-        pass
+        pr.smart_search_menu()
+        seq = pr.smart_search_input()
+        while len(seq) < 3:
+            seq = pr.smart_search_input()
+        _temp = mm.temp_name(seq, movieList)
+        if _temp != []:
+            pr.table_of_movies(_temp)
+        else:
+            print("Uups. Nothing was found in our database.")

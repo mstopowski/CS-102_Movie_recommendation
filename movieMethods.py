@@ -28,3 +28,37 @@ def get_movie_score(movie):
 def get_random_movie(list):
     return list[random.randint(0, len(list)+1)]
 
+def temp_name(seq, movieList):
+    result = []
+    for movie in movieList:
+        if sequence_in_movie(movie, seq) == True:
+            result.append(movie)
+    return result
+
+def sequence_in_movie(movie, seq):
+    result = False
+    for item in movie:
+        if sequence_in_item(item, seq) == True:
+            result = True
+            break
+    return result
+
+def sequence_in_item(item, seq):
+    result = False
+    _item = str(item).lower()
+    _seq = str(seq).lower()
+    for i in range(len(_item)):
+        count = 0
+        if _item[i] == _seq[0]:
+            for j in range(len(_seq)):
+                try:
+                    if _item[i+j] == _seq[j]:
+                        count += 1
+                    else:
+                        break
+                except IndexError:
+                    pass
+        if count == len(_seq):
+            result = True
+            break
+    return result

@@ -17,6 +17,14 @@ def show_main_menu():
     print("4) Select random movie")
     print("5) Use our smart search")
 
+def smart_search_menu():
+    print("---------------------------------------------------------------------")
+    print("You are now using our smart search.")    
+
+def smart_search_input():
+    answer = input("Please type at least 3 characters to initiate search: ")
+    return answer
+
 def sort_menu():
     print("---------------------------------------------------------------------")
     print("You can sort movies by:")
